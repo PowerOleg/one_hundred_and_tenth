@@ -13,7 +13,7 @@
           class="com.spring.constructor.MotoBike">
           <constructor-arg index="0" ref="engine"/>
           <constructor-arg index="1" ref="transmission"/>
-          <constructor-arg index="2" value="MyName"/>
+          <constructor-arg index="2" value="Jupiter7"/>
 </bean>
 
     <bean id="engine"

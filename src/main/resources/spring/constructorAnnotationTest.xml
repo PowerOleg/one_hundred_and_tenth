@@ -8,25 +8,23 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-<!--        <context:property-placeholder location="classpath:testAnnotation.properties"/>-->
-<!--        <context:component-scan base-package="com.spring.annotationTest"></context:component-scan>//1-->
+        <context:property-placeholder location="classpath:testAnnotation.properties"/>
 
+<!--    <bean id="bike"-->
+<!--          class="com.spring.constructor.MotoBike">-->
+<!--        <constructor-arg index="0" ref="engine"/>-->
+<!--        <constructor-arg index="1" ref="transmission"/>-->
+<!--        <constructor-arg index="2" value="Jupiter7"/>-->
+<!--    </bean>-->
 
-    <bean id="bike"
-          class="com.spring.constructor.MotoBike">
-        <constructor-arg index="0" ref="engine"/>
-        <constructor-arg index="1" ref="transmission"/>
-        <constructor-arg index="2" value="MyName"/>
-    </bean>
+<!--    <bean id="engine"-->
+<!--          class="com.spring.constructor.Engine">-->
+<!--        <constructor-arg value="BMW"/>-->
+<!--    </bean>-->
 
-    <bean id="engine"
-          class="com.spring.constructor.Engine">
-        <constructor-arg value="BMW"/>
-    </bean>
-
-    <bean id="transmission"
-          class="com.spring.constructor.Transmission">
-        <constructor-arg value="Good Transmission"/>
-    </bean>
+<!--    <bean id="transmission"-->
+<!--          class="com.spring.constructor.Transmission">-->
+<!--        <constructor-arg value="Good Transmission"/>-->
+<!--    </bean>-->
 
 </beans>
