@@ -8,11 +8,8 @@ public class AnnotationTest {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring/constructorAnnotationTest.xml");
         MotoBike motoBike = context.getBean(MotoBike.class);
-//        Engine engine = (Engine) context.getBean("engine");// с маленькой буквы!
+        Engine engine = (Engine) context.getBean("engine");// с маленькой буквы!
         System.out.println(motoBike.toString());
-
-
+        System.out.println(engine.toString());
     }
-
-
 }
